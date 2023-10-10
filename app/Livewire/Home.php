@@ -10,7 +10,7 @@ class Home extends Component
 {
     public function render()
     {
-        sleep(1);
+        // sleep(1);
         return view('livewire.home');
     }
 }
