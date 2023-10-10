@@ -8,6 +8,7 @@ class Index extends Component
 {
     public function render()
     {
+        sleep(1);
         return view('livewire.posts.index');
     }
 }
